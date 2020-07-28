@@ -28,3 +28,20 @@
 5. Com todos os dados que foram anotados, criei mais dois [**modelos**](colcoarlink), **Random Forest** e **LightGBM**, otimizei os seus hiperparâmetros para realizar um classificação mais precisa, e fundi seus resultados utilizando um *ensemble* entre eles;
 
 6. Por fim, construí um container utilizando o docker e hospedei minha aplicação no [**heroku**](https://como-um-ds-compra-um-tenis.herokuapp.com/), concluindo o projeto.
+
+## Repositório
+* [**Extração a Modelagem**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/tree/master/Extra%C3%A7%C3%A3o%20a%20Modelagem) : Pasta com todos notebooks utilizados para realizar os passos de extração dos dados até a modelagem.
+* [**deploy**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/tree/master/deploy) : Pasta com os arquivos utilizados para criar o container do docker e realizar o deploy no heroku.
+
+## Principais ferramentas utilizadas
+
+* scikit-learn
+* scikit-optimize
+* pandas
+* numpy
+* scipy
+* regex
+* docker
+* heroku
+* beautifulsoup4
+* requests
