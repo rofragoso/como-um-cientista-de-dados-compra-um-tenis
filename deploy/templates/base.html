@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Rodrigo Fragoso - Comprando um tênis com Data Science </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">   
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <image class = "logo"  src ="{{ url_for('static', filename='images/corrida.jpg',width=900, height=200)}}">   
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">   
+       
+        
+    <style type ="text/css">
+        
+        .logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+                }
+    </style>
+ </head>
+    <body>   
+
+         <nav>
+            <a  href="https://www.linkedin.com/in/rodrigo-a-fragoso/">Linkedin</a>
+            <a  href="https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis">GitHub</a>
+
+         </nav>
+
+      {% block content %}{% endblock %}
+</body>
+</html>
