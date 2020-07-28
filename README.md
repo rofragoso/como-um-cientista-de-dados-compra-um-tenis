@@ -1,4 +1,4 @@
-<a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/corrida.jpg" title="Running Shoes" alt="Running Shoes"></a>
+<a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/corrida.jpg" title="Running Shoes" alt="Running Shoes" height="100" ></a>
 
 # Como um cientista de dados compra um tênis de corrida?
 
