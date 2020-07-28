@@ -1,6 +1,7 @@
 <div>
 <img src="deploy/static/images/corrida.jpg" align="left" width="400"/>
-</div>
+</div><br>
+<br>
 
 # Como um cientista de dados compra um tênis de corrida?
 
