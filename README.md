@@ -16,4 +16,14 @@
 ## Etapas
 > Como cheguei nesse WebApp?
 
-1. Formulei o problema e procurei o melhor site, para extrair informações e realizar o meu projeto. A página escolhida foi o <a href="https://runrepeat.com/" target="_blank">RunRepeat Official Website</a>, que possui diversas informações sobre milhares de tênis, além de uma vasta quantidade de reviews feitos por especialistas e membros da sua comunidade
+1. Formulei o problema e procurei o melhor site, para extrair informações e realizar o meu projeto. A página escolhida foi o <a href="https://runrepeat.com/" target="_blank">RunRepeat Official Website</a>, que possui diversas informações sobre milhares de tênis, além de uma vasta quantidade de reviews feitos por especialistas e membros da sua comunidade;
+
+2. Com o site escolhido, criei um *Web Scraper* dividido em duas etapas: [**o coletor de dados da busca do site**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/blob/master/Extra%C3%A7%C3%A3o%20a%20Modelagem/1.1_coletor_busca_tenis.ipynb), que era responsável por listar todos os tênis da categoria desejada, e o  [**coletor dos dados de cada tênis**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/blob/master/Extra%C3%A7%C3%A3o%20a%20Modelagem/1.2_coleta_de_dados_tenis.ipynb) encontrado. A segunda parte demandou maiores esforços por possuir muitas informações na página;
+
+3. De posse de todos esses dados brutos, realizei o seu [**processamento**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/blob/master/Extra%C3%A7%C3%A3o%20a%20Modelagem/2_feature_engineering.ipynb) para criar um *dataset* consumível para treinar os modelos de machine learning que iria utilizar;
+
+4. Para chegar na modelagem, foi necessário fazer a anotação de alguns exemplos no nosso *dataset* e para realizar isso de forma otimizada, reduzindo tempo e recurso, foi utilizada a metodologia do [***Active Learning***](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/blob/master/Extra%C3%A7%C3%A3o%20a%20Modelagem/2_feature_engineering.ipynb), no qual também foram treinados alguns modelos de classificação tendo sua performance avaliada via validação cruzada;
+
+5. Com todos os dados que foram anotados, criei mais dois [**modelos**](colcoarlink), **Random Forest** e **LightGBM**, otimizei os seus hiperparâmetros para realizar um classificação mais precisa, e fundi seus resultados utilizando um *ensemble* entre eles;
+
+6. Por fim, construí um container utilizando o docker e hospedei minha aplicação no [**heroku**](https://como-um-ds-compra-um-tenis.herokuapp.com/), concluindo o projeto.
