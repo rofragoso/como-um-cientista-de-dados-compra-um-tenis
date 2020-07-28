@@ -32,7 +32,6 @@
 ## Repositório
 * [**Extração a Modelagem**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/tree/master/Extra%C3%A7%C3%A3o%20a%20Modelagem) : Pasta com todos notebooks utilizados para realizar os passos de extração dos dados até a modelagem.
 * [**deploy**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/tree/master/deploy) : Pasta com os arquivos utilizados para criar o container do docker e realizar o deploy no heroku.
-
 ## Principais ferramentas utilizadas
 
 * scikit-learn
@@ -45,3 +44,9 @@
 * heroku
 * beautifulsoup4
 * requests
+
+## Agradecimentos
+* Agradecimento especial ao [Mario Filho](https://www.linkedin.com/in/mariofilho/) que criou um curso fenomenal, utilizado de base para boa parte deste projeto, e sempre está criando conteúdo sobre Data Science que venho consumindo e aprendendo diversos tópicos a bastante tempo.
+    * [Mario Filho - Canal Youtube](https://www.youtube.com/user/marionefilho)
+    * [Curso mencionado](https://curso.mariofilho.com/)
+* Ao  [Jonathan Cabreira](https://www.linkedin.com/in/cabreirajm/) por disponibilizar o seu template da página web para o deploy.
