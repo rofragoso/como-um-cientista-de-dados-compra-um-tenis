@@ -12,3 +12,8 @@
 <p align="center">
 <a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/pag.PNG" title="Running Shoes" alt="Running Shoes" height="300" align="center"  ></a>
 </p>
+
+## Etapas
+> Como cheguei nesse WebApp?
+
+1. Formulei o problema e procurei o melhor site, para extrair informações e realizar o meu projeto. A página escolhida foi o <a href="https://runrepeat.com/" target="_blank">RunRepeat Official Website</a>, que possui diversas informações sobre milhares de tênis, além de uma vasta quantidade de reviews feitos por especialistas e membros da sua comunidade
