@@ -55,6 +55,7 @@
 * numpy
 * scipy
 * regex
+* flask
 * docker
 * heroku
 * beautifulsoup4
