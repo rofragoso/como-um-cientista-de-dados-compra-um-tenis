@@ -29,6 +29,12 @@
 
 6. Por fim, construí um container utilizando o docker e hospedei minha aplicação no [**heroku**](https://como-um-ds-compra-um-tenis.herokuapp.com/), concluindo o projeto.
 
+## APIs
+* Para adicionar algumas funcionalidades ao aplicativo, foram adicionadas duas APIs com o intuito de consultar o *score* de qualquer tênis que pertença ao site e outra para mandar um comando que atualiza o banco de dados do app.
+   * A primeira, denominada de **predict **  é consultada pelo link: https://teste-tenis.herokuapp.com/predict?shoes_name={nome do tenis}, e deve ser preenchida com o nome do tênis de acordo com sua página do RunRepeat. Exemplo: para o https://runrepeat.com/nike-epic-react-flyknit-2 podemos acessar seu score via API por https://teste-tenis.herokuapp.com/predict?shoes_name=nike-epic-react-flyknit-2;
+   * A segunda, é denominada de update e realiza a atualização pelo seguinte link: https://teste-tenis.herokuapp.com/update?code={senha}&pages={paginas de busca}. Nesse caso podemos escolher quantas páginas de busca serão adicionadas e é necessária uma senha para liberar a atualização, por segurança.
+
+
 ## Repositório
 * [**Extração a Modelagem**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/tree/master/Extra%C3%A7%C3%A3o%20a%20Modelagem) : Pasta com todos notebooks utilizados para realizar os passos de extração dos dados até a modelagem.
 * [**deploy**](https://github.com/rofragoso/como-um-cientista-de-dados-compra-um-tenis/tree/master/deploy) : Pasta com os arquivos utilizados para criar o container do docker e realizar o deploy no heroku.
