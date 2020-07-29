@@ -35,7 +35,7 @@
    **Exemplo:** para o https://runrepeat.com/nike-epic-react-flyknit-2, podemos acessar seu score via API por:<br>
    &emsp;&emsp;&emsp;&emsp;https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name=nike-epic-react-flyknit-2;
    * A segunda, denominada de **update** é consultada pelo link: https://como-um-ds-compra-um-tenis.herokuapp.com/update?code={senha}&pages={pagina_de_busca}.<br>
-   Nesse caso podemos escolher quantas páginas de busca serão adicionadas e é necessária uma senha para liberar a atualização, por segurança.
+   Nesse caso, podemos escolher quantas páginas de busca serão adicionadas e é necessária uma senha para liberar a atualização, por segurança.
 
 
 ## Repositório
