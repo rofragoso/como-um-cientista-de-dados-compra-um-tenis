@@ -39,7 +39,8 @@
 <a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/api_predict.PNG" title="API predict" alt="Running Shoes"  align="center"  ></a>
 </p>   
   
-   * A segunda, denominada de **update** é consultada pelo link: https://como-um-ds-compra-um-tenis.herokuapp.com/update?code={senha}&pages={pagina_de_busca}.<br>
+   * A segunda, denominada de **update** é consultada pelo link: <br>
+   https://como-um-ds-compra-um-tenis.herokuapp.com/update?code={senha}&pages={pagina_de_busca}.<br>
    Nesse caso, podemos escolher quantas páginas de busca serão adicionadas e é necessária uma senha para liberar a atualização, por segurança.
 
 
