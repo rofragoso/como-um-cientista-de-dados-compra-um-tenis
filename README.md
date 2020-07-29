@@ -31,7 +31,8 @@
 
 ## APIs
 * Para adicionar algumas funcionalidades ao aplicativo, foram adicionadas duas APIs com o intuito de consultar o *score* de qualquer tênis que pertença ao site e outra para mandar um comando que atualiza o banco de dados do app.
-   * A primeira, denominada de **predict**  é consultada pelo link: https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name={nome_do_tenis}, e deve ser preenchida com o nome do tênis de acordo com sua página do RunRepeat. Exemplo: para o https://runrepeat.com/nike-epic-react-flyknit-2 podemos acessar seu score via API por https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name=nike-epic-react-flyknit-2;
+   * A primeira, denominada de **predict**  é consultada pelo link: https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name={nome_do_tenis}, e deve ser preenchida com o nome do tênis de acordo com sua página do RunRepeat.<br>
+   Exemplo: para o https://runrepeat.com/nike-epic-react-flyknit-2 podemos acessar seu score via API por https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name=nike-epic-react-flyknit-2;
    * A segunda, é denominada de **update** e realiza a atualização pelo seguinte link: https://como-um-ds-compra-um-tenis.herokuapp.com/update?code={senha}&pages={paginas de busca}. Nesse caso podemos escolher quantas páginas de busca serão adicionadas e é necessária uma senha para liberar a atualização, por segurança.
 
 
