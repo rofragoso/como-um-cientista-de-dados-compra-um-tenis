@@ -11,6 +11,8 @@ def download_search_page(page):
     response = rq.get(urll)
     
     return response.text
+   
+    return response.text
 
 def parse_search_page(page_html):
     parsed = bs4.BeautifulSoup(page_html, 'html.parser')
@@ -37,6 +39,13 @@ def parse_search_page(page_html):
     return video_list_no_dup
 
 def download_shoes_page(link):
+    url = "https://runrepeat.com{link}"
+    urll = url.format(link=link)
+    response = rq.get(urll)
+    
+    return response.text
+
+def download_shoes_page_api(link):
     url = "https://runrepeat.com{link}"
     urll = url.format(link=link)
     response = rq.get(urll)

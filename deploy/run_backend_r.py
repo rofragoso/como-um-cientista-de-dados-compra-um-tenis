@@ -2,10 +2,10 @@ from get_data_r import *
 from ml_utils_r import *
 import time
 
-def update_db():
+def update_db(n):
     with open("novos_tenis.json", 'w+') as output:
         
-        for page in range(1,10):
+        for page in range(1,n):
 
             search_page = download_search_page(page)
             shoes_list=parse_search_page(search_page)
@@ -23,7 +23,7 @@ def update_db():
                 link_image= pre_feature_array['image']
                 score=p
 
-                data_front = {"shoes": shoes_name, "score": float(p), "link": link, "image": link_image}
+                data_front = {"shoes": shoes_name, "score": p, "link": link, "image": link_image}
                 data_front['update_time'] = time.time_ns()
 
                 print(data_front)
