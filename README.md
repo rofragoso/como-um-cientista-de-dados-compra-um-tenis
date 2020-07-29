@@ -11,7 +11,7 @@
 * Para otimizar minha escolha, criei um *pipeline* completo, desde a formulação do problema até o deploy, para escolher o melhor tênis de corrida, tudo isso baseado em dados. Para isso, passamos por várias etapas: *scraping*, processamento dos dados, modelagem, otimização, até chegar na solução final que foi hospedada no [**heroku**](https://como-um-ds-compra-um-tenis.herokuapp.com/) e me auxiliou bastante a decidir qual produto adquirir.
 
 <p align="center">
-<a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/pag.PNG" title="Running Shoes" alt="Running Shoes" height="300" align="center"  ></a>
+<a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/api_predict.PNG" title="API predict" alt="Running Shoes"  align="center"  ></a>
 </p>
 
 ## Etapas
@@ -32,6 +32,11 @@
 ## APIs
 * Para adicionar algumas funcionalidades ao aplicativo, foram adicionadas duas APIs com o intuito de consultar o *score* de qualquer tênis que pertença ao site e outra para mandar um comando que atualiza o banco de dados do app.
    * A primeira, denominada de **predict**   https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name={nome_do_tenis}, e deve ser preenchida com o nome do tênis de acordo com sua página do RunRepeat.<br>
+   
+<p align="center">
+<a href="https://como-um-ds-compra-um-tenis.herokuapp.com/"><img src="deploy/static/images/pag.PNG" title="Running Shoes" alt="Running Shoes" height="300" align="center"  ></a>
+</p>
+   
    **Exemplo:** para o https://runrepeat.com/nike-epic-react-flyknit-2, podemos acessar seu score via API por:<br>
    &emsp;&emsp;&emsp;&emsp;https://como-um-ds-compra-um-tenis.herokuapp.com/predict?shoes_name=nike-epic-react-flyknit-2;
    * A segunda, denominada de **update** é consultada pelo link: https://como-um-ds-compra-um-tenis.herokuapp.com/update?code={senha}&pages={pagina_de_busca}.<br>
